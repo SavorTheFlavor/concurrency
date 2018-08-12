@@ -17,6 +17,6 @@ import java.lang.annotation.Target;
  RUNTIME: Annotations are to be recorded in the class file by the compiler and retained by the VM at run time, so they may be read reflectively.
  */
 @Retention(RetentionPolicy.SOURCE)
-public @interface ThreadNotSafe {
+public @interface NotThreadSafe {
     String value() default "";
 }
