@@ -1,6 +1,6 @@
 package com.me.concurrency.example.concurrent;
 
-import com.mmall.concurrency.annoations.ThreadSafe;
+import com.me.concurrency.annotation.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;
